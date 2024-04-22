@@ -19,11 +19,11 @@ function App() {
         <Footer />
       </div>
       <Routes>
-        <Route path="/Compuline/home" element={<Main />} />
-        <Route path="/Compuline/about" element={<About />} />
-        <Route path="/Compuline/products" element={<Products />} />
-        <Route path="/Compuline/vendorspartners" element={<VendorsPartners />} />
-        <Route path="/Compuline/contacts" element={<Contacts />} />
+        <Route path="/home" element={<Main />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/vendorspartners" element={<VendorsPartners />} />
+        <Route path="/contacts" element={<Contacts />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

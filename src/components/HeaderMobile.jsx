@@ -39,7 +39,6 @@ function HeaderMobile() {
           <div className="bottom-line"></div>
         </div>
       </div>
-      {/* Передаем функцию для закрытия меню в BurgerMenu */}
       {isMenuActive && <BurgerMenu closeMenu={closeMenu} />}
     </header>
   );
