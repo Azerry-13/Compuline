@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Compuline/static/css/main.cfcb79e4.css",
+    "main.js": "/Compuline/static/js/main.328e3613.js",
+    "static/media/404Banner.jpg": "/Compuline/static/media/404Banner.1e6d59ed1035ad635ac0.jpg",
+    "static/media/aboutBanner.jpg": "/Compuline/static/media/aboutBanner.46f529e9745afdd998e0.jpg",
+    "static/media/mainBanner.jpg": "/Compuline/static/media/mainBanner.93e78f024fe74185e868.jpg",
+    "static/media/productsBanner.jpg": "/Compuline/static/media/productsBanner.4134381a1a773e98fcf8.jpg",
+    "static/media/contact-image-1.jpg": "/Compuline/static/media/contact-image-1.b281d81c5ba4d01420ab.jpg",
+    "static/media/products-image-5.jpg": "/Compuline/static/media/products-image-5.1f5bf168b2d745294fe6.jpg",
+    "static/media/about-image-4.jpg": "/Compuline/static/media/about-image-4.cc6f3527296ce41bafd1.jpg",
+    "static/media/vendors-image-1.jpg": "/Compuline/static/media/vendors-image-1.aee20bc3d95924a37d02.jpg",
+    "static/media/about-image-1.jpg": "/Compuline/static/media/about-image-1.f39eba40e7f605a7a032.jpg",
+    "static/media/vendors-image-2.jpg": "/Compuline/static/media/vendors-image-2.2e99dcd82bd39a54ffab.jpg",
+    "static/media/products-image-4.jpg": "/Compuline/static/media/products-image-4.bffb029a43897d5afa2c.jpg",
+    "static/media/products-image-2.jpg": "/Compuline/static/media/products-image-2.c3e880e8b567232c9f87.jpg",
+    "static/media/products-image-3.jpg": "/Compuline/static/media/products-image-3.95645e25f3530c34c425.jpg",
+    "static/media/about-image-2.jpg": "/Compuline/static/media/about-image-2.3ceac97841dcdcb56a91.jpg",
+    "static/media/about-image-3.jpg": "/Compuline/static/media/about-image-3.1e4fa9247cfcd44c61bf.jpg",
+    "static/media/products-image-1.jpg": "/Compuline/static/media/products-image-1.0e17a9215ddc9df5c57f.jpg",
+    "static/media/products-image-5-small.jpg": "/Compuline/static/media/products-image-5-small.1236dd19c1b32d066743.jpg",
+    "index.html": "/Compuline/index.html",
+    "static/media/arrow.svg": "/Compuline/static/media/arrow.7aa8959b556486d4c5db484962e67994.svg",
+    "main.cfcb79e4.css.map": "/Compuline/static/css/main.cfcb79e4.css.map",
+    "main.328e3613.js.map": "/Compuline/static/js/main.328e3613.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfcb79e4.css",
+    "static/js/main.328e3613.js"
+  ]
+}
