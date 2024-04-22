@@ -45,7 +45,7 @@ function AboutBlock() {
   ];
 
   const handleClick = () => {
-    window.location.replace("/home#form");
+    window.location.replace("/Compuline/#/home#form");
   };
 
   return (
