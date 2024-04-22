@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Compuline/static/css/main.cfcb79e4.css",
-    "main.js": "/Compuline/static/js/main.8843df12.js",
+    "main.js": "/Compuline/static/js/main.04bfddea.js",
     "static/media/404Banner.jpg": "/Compuline/static/media/404Banner.1e6d59ed1035ad635ac0.jpg",
     "static/media/aboutBanner.jpg": "/Compuline/static/media/aboutBanner.46f529e9745afdd998e0.jpg",
     "static/media/mainBanner.jpg": "/Compuline/static/media/mainBanner.93e78f024fe74185e868.jpg",
@@ -22,10 +22,10 @@
     "index.html": "/Compuline/index.html",
     "static/media/arrow.svg": "/Compuline/static/media/arrow.7aa8959b556486d4c5db484962e67994.svg",
     "main.cfcb79e4.css.map": "/Compuline/static/css/main.cfcb79e4.css.map",
-    "main.8843df12.js.map": "/Compuline/static/js/main.8843df12.js.map"
+    "main.04bfddea.js.map": "/Compuline/static/js/main.04bfddea.js.map"
   },
   "entrypoints": [
     "static/css/main.cfcb79e4.css",
-    "static/js/main.8843df12.js"
+    "static/js/main.04bfddea.js"
   ]
 }
