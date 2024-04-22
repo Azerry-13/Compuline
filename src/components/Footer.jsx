@@ -10,19 +10,19 @@ function Footer() {
         <nav>
           <ul>
             <li className="small-text">
-              <Link to="/">Home</Link>
+              <Link to="/Compuline/">Home</Link>
             </li>
             <li className="small-text">
-              <Link to="/about">About us</Link>
+              <Link to="/Compuline/about">About us</Link>
             </li>
             <li className="small-text">
-              <Link to="/products">Products</Link>
+              <Link to="/Compuline/products">Products</Link>
             </li>
             <li className="small-text">
-              <Link to="/vendorspartners">Vendors and partners</Link>
+              <Link to="/Compuline/vendorspartners">Vendors and partners</Link>
             </li>
             <li className="small-text">
-              <Link to="/contacts">Contacts</Link>
+              <Link to="/Compuline/contacts">Contacts</Link>
             </li>
           </ul>
         </nav>
