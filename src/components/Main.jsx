@@ -6,17 +6,17 @@ import Form from "./Form";
 import { useEffect } from "react";
 
 function formScroll() {
-  const url = window.location.href;
-  const lastWord = url.substring(url.lastIndexOf("#") + 1);
-
-  window.onload = () => {
+  document.addEventListener("DOMContentLoaded", () => {
+    const url = window.location.href;
+    const lastWord = url.substring(url.lastIndexOf("#") + 1);
+    
     if (lastWord === "form") {
       const formElement = document.getElementById("form");
       if (formElement) {
         formElement.scrollIntoView({ behavior: "smooth" });
       }
     }
-  };
+  });
 }
 
 function Main() {
