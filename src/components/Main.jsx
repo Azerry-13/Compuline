@@ -5,8 +5,8 @@ import Headline from "./BlockHeadline";
 import Form from "./Form";
 import { useEffect } from "react";
 
-function formScroll() {
-  document.addEventListener("DOMContentLoaded", () => {
+function Main() {
+  useEffect(() => {
     const url = window.location.href;
     const lastWord = url.substring(url.lastIndexOf("#") + 1);
     
@@ -16,13 +16,8 @@ function formScroll() {
         formElement.scrollIntoView({ behavior: "smooth" });
       }
     }
-  });
-}
-
-function Main() {
-  useEffect(() => {
-    formScroll();
   }, []);
+  
   return (
     <>
       <div className="main">
