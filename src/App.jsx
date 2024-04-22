@@ -9,7 +9,7 @@ import NotFound from "./NotFound";
 import VendorsPartners from "./VendorsPartners";
 import Contacts from "./Contacts";
 import HeaderMobile from "./components/HeaderMobile";
-import ScrollToTop from './ScrollToTop';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
