@@ -10,6 +10,10 @@ function NotFound() {
   function handleMouseOut() {
     setMouseOver(false);
   }
+
+  const handleClick = () => {
+    window.location.replace("/Compuline/home");
+  };
   return (
     <>
       <div className="notfound">
@@ -23,6 +27,7 @@ function NotFound() {
             onMouseOver={handleMouseOver}
             onMouseOut={handleMouseOut}
             className="button-text white"
+            onClick={handleClick}
           >
             Go to the main page
           </button>
