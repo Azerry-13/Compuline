@@ -9,10 +9,12 @@ import NotFound from "./NotFound";
 import VendorsPartners from "./VendorsPartners";
 import Contacts from "./Contacts";
 import HeaderMobile from "./components/HeaderMobile";
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
     <>
+    <ScrollToTop />
       <div className="App">
         <Header />
         <HeaderMobile />
