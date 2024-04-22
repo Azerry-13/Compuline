@@ -18,7 +18,7 @@ function App() {
         <HeaderMobile />
         <Footer />
       </div>
-      <Routes basename="/Compuline">
+      <Routes>
         <Route path="/home" element={<Main />} />
         <Route path="/about" element={<About />} />
         <Route path="/products" element={<Products />} />

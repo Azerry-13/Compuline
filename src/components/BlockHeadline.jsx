@@ -23,7 +23,7 @@ function Headline(props) {
   buttons.forEach((button) => {
     button.addEventListener("click", function () {
       if (button.textContent === "Go to catalog") {
-        window.location.replace("/Compuline/products");
+        window.location.replace("/products");
       } else scrollToForm();
     });
   });

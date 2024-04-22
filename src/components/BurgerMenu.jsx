@@ -8,27 +8,27 @@ function BurgerMenu({ closeMenu }) {
         <nav>
           <ul>
             <li className="small-text">
-              <Link to="/Compuline/home" onClick={closeMenu}>
+              <Link to="/home" onClick={closeMenu}>
                 Home
               </Link>
             </li>
             <li className="small-text">
-              <Link to="/Compuline/about" onClick={closeMenu}>
+              <Link to="/about" onClick={closeMenu}>
                 About us
               </Link>
             </li>
             <li className="small-text">
-              <Link to="/Compuline/products" onClick={closeMenu}>
+              <Link to="/products" onClick={closeMenu}>
                 Products
               </Link>
             </li>
             <li className="small-text">
-              <Link to="/Compuline/vendorspartners" onClick={closeMenu}>
+              <Link to="/vendorspartners" onClick={closeMenu}>
                 Vendors and partners
               </Link>
             </li>
             <li className="small-text">
-              <Link to="/Compuline/contacts" onClick={closeMenu}>
+              <Link to="/contacts" onClick={closeMenu}>
                 Contacts
               </Link>
             </li>
