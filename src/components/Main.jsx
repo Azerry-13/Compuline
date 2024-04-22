@@ -7,13 +7,14 @@ import { useEffect } from "react";
 
 function formScroll() {
   const url = window.location.href;
-  const hashIndex = url.lastIndexOf("#");
-  const lastWord = url.substring(hashIndex + 1, url.indexOf("#", hashIndex + 1));
-  const formElement = document.getElementById("form");
+  const lastWord = url.substring(url.lastIndexOf("#") + 1);
 
   window.onload = () => {
-    if (lastWord === "form" && formElement) {
-      formElement.scrollIntoView({ behavior: "smooth" });
+    if (lastWord === "form") {
+      const formElement = document.getElementById("form");
+      if (formElement) {
+        formElement.scrollIntoView({ behavior: "smooth" });
+      }
     }
   };
 }

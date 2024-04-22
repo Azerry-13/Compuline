@@ -66,7 +66,7 @@ function AboutBlock() {
                 className="small-text arrow-link"
                 onClick={(e) => {
                   if (item.buttonText === "Go to catalog") {
-                    window.location.replace("/products");
+                    window.location.replace("#/products");
                   } else {
                     handleClick();
                   }
