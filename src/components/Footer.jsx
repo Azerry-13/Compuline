@@ -22,7 +22,7 @@ function Footer() {
               <Link to="/Compuline/vendorspartners">Vendors and partners</Link>
             </li>
             <li className="small-text">
-              <Link to="/Compuline/contacts">Contacts</Link>
+              <Link to="google.com">Contacts</Link>
             </li>
           </ul>
         </nav>
