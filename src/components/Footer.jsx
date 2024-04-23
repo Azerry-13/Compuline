@@ -3,8 +3,12 @@ import logo from "../images/logo.png";
 import { NavLink } from "react-router-dom";
 
 function Footer() {
-  const handleScrollToTop = () => {
-    window.scrollTo(0, 0);
+  const handleScrollToTop = (event) => {
+    const { target } = event;
+    // Проверяем, содержит ли элемент атрибут data-scroll-top и его значение равно "true"
+    if (target.getAttribute("data-scroll-top") === "true") {
+      window.scrollTo(0, 0);
+    }
   };
 
   return (
@@ -34,7 +38,11 @@ function Footer() {
               </NavLink>
             </li>
             <li className="small-text">
-              <NavLink to="/contacts" onClick={handleScrollToTop}>
+              <NavLink
+                to="/contacts"
+                onClick={handleScrollToTop}
+                data-scroll-top="true"
+              >
                 Contacts
               </NavLink>
             </li>
