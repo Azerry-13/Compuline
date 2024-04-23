@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Compuline/static/css/main.cfcb79e4.css",
-    "main.js": "/Compuline/static/js/main.04bfddea.js",
+    "main.css": "/Compuline/static/css/main.8165f105.css",
+    "main.js": "/Compuline/static/js/main.9cc64609.js",
     "static/media/404Banner.jpg": "/Compuline/static/media/404Banner.1e6d59ed1035ad635ac0.jpg",
     "static/media/aboutBanner.jpg": "/Compuline/static/media/aboutBanner.46f529e9745afdd998e0.jpg",
     "static/media/mainBanner.jpg": "/Compuline/static/media/mainBanner.93e78f024fe74185e868.jpg",
@@ -21,11 +21,11 @@
     "static/media/products-image-5-small.jpg": "/Compuline/static/media/products-image-5-small.1236dd19c1b32d066743.jpg",
     "index.html": "/Compuline/index.html",
     "static/media/arrow.svg": "/Compuline/static/media/arrow.7aa8959b556486d4c5db484962e67994.svg",
-    "main.cfcb79e4.css.map": "/Compuline/static/css/main.cfcb79e4.css.map",
-    "main.04bfddea.js.map": "/Compuline/static/js/main.04bfddea.js.map"
+    "main.8165f105.css.map": "/Compuline/static/css/main.8165f105.css.map",
+    "main.9cc64609.js.map": "/Compuline/static/js/main.9cc64609.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfcb79e4.css",
-    "static/js/main.04bfddea.js"
+    "static/css/main.8165f105.css",
+    "static/js/main.9cc64609.js"
   ]
 }
