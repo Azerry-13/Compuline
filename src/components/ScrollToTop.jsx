@@ -5,30 +5,21 @@ const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    const handleClick = (event) => {
-      const currentPath = window.location.pathname;
-      const linkPath = event.target.getAttribute('href');
+    const handleScrollToTop = () => {
+      window.scrollTo(0, 0);
+    };
 
-      if (currentPath === linkPath) {
-        event.preventDefault();
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth'
-        });
+    const handleLinkClick = (event) => {
+      const { target } = event;
+      if (target.tagName === 'A' && target.getAttribute('href') === pathname) {
+        handleScrollToTop();
       }
     };
 
-    const links = document.querySelectorAll('li.small-text a');
+    document.addEventListener('click', handleLinkClick);
 
-    links.forEach(link => {
-      link.addEventListener('click', handleClick);
-    });
-
-    // Удаляем обработчики событий при размонтировании компонента
     return () => {
-      links.forEach(link => {
-        link.removeEventListener('click', handleClick);
-      });
+      document.removeEventListener('click', handleLinkClick);
     };
   }, [pathname]);
 
