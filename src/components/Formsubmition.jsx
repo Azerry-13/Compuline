@@ -39,7 +39,7 @@ function Formsubmition() {
         placeholder="+7 (ххх) хх - хх - хх"
       />
       <label htmlFor="email" className="small-text">
-        Email Address
+          E-mail
       </label>
       <input
         id="email"

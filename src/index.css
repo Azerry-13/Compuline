@@ -345,7 +345,7 @@ footer p.small-text {
 
 .address:first-of-type {
   align-items: flex-start;
-  gap: 12px;
+  gap: 15px;
   margin: 83px 0 32px;
 }
 
@@ -519,29 +519,35 @@ footer p.small-text {
   margin: 0 auto;
 }
 
-form .small-text {
+form label.small-text {
   text-align: left;
   display: block;
   background-color: #f7f7f7;
   position: relative;
   z-index: 10;
-  top: 8px;
-  left: 24px;
+  top: 4px;
+  left: 12px;
   width: fit-content;
   padding: 0 12px;
   color: #8aa4b0;
   margin-top: 9px;
 }
 
+form p.small-text {
+  text-align: left;
+  display: block;
+  color: #8aa4b0;
+}
+
 form {
-  padding: 20px 0 140px;
+  padding: 5px 0 140px;
 }
 
 input {
   border: 1px solid #8aa4b0;
   border-radius: 5px;
   width: 100%;
-  padding: 10px 24px;
+  padding: 9px 24px;
   position: relative;
   z-index: 1;
   background-color: #f7f7f7;
@@ -809,6 +815,7 @@ form button {
   .vendorsPartners > .container > button {
     display: block;
     color: #ffffff;
+    margin-top: 5px;
   }
 
   .vendorsPartners img {
@@ -838,7 +845,6 @@ form button {
   }
   .address:first-of-type {
     padding-top: calc((100vw - 1023px) / 2 + 130px);
-    margin: 0 0 32px;
   }
 }
 
@@ -862,7 +868,6 @@ form button {
 
   .address:first-of-type {
     padding-top: calc((100vw - 360px));
-    margin: 0 0 32px;
   }
 }
 
@@ -917,7 +922,7 @@ form button {
   }
 
   form {
-    padding: 10px 0 100px;
+    padding: 35px 0 100px;
   }
 
   .submit-button {
@@ -935,7 +940,7 @@ form button {
   }
 
   .products .products-content {
-    margin: 58px 0 80px;
+    margin: 58px 0 100px;
   }
 
   .banner > .container {
@@ -957,7 +962,7 @@ form button {
   }
 
   .background-upper h1 {
-    padding: 150px 0 28px;
+    padding: 175px 0 28px;
   }
 
   .vendorsPartners img {
@@ -970,7 +975,7 @@ form button {
   }
   .vendorsPartners .container {
     flex-direction: column-reverse;
-    padding: 150px 30px 100px;
+    padding: 150px 30px 110px;
     padding-top: calc((100vw - 360px) / 2 + 180px);
     gap: 40px;
   }
@@ -999,13 +1004,28 @@ form button {
 
   .address:first-of-type {
     padding-top: calc((100vw - 360px));
-    margin: 0 0 32px;
+  }
+
+  .about h1, .main h1{
+    padding-top: 75px;
+  }
+
+  .contacts h1 {
+    padding-top: 175px;
+  }
+
+  .products h1 {
+    padding-top: 105px;
+  }
+
+  button {
+    max-width: none;
   }
 }
 
 @media screen and (max-width: 700px) {
   .vendorsPartners .container {
-    padding-top: calc((100vw - 360px) / 2 + 150px);
+    padding-top: calc((100vw - 360px) / 2 + 160px);
   }
 
   .background-upper .container {
@@ -1047,7 +1067,7 @@ form button {
   }
 
   .about > .banner > .container {
-    padding: 160px 30px 247px;
+    padding: 160px 30px 210px;
   }
 
   .address:first-of-type {
