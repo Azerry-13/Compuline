@@ -14,7 +14,6 @@ import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
     <>
-    <ScrollToTop />
       <div className="App">
         <Header />
         <HeaderMobile />
@@ -28,6 +27,7 @@ function App() {
         <Route path="/contacts" element={<Contacts />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <ScrollToTop />
     </>
   );
 }
