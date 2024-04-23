@@ -1,28 +1,42 @@
 import React from "react";
 import logo from "../images/logo.png";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
+  const handleScrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <footer>
       <div className="container">
         <img src={logo} alt="Compuline logo" />
         <nav>
           <ul>
-          <li className="small-text">
-              <Link to="/home">Home</Link>
+            <li className="small-text">
+              <NavLink to="/home" onClick={handleScrollToTop}>
+                Home
+              </NavLink>
             </li>
             <li className="small-text">
-              <Link to="/about">About us</Link>
+              <NavLink to="/about" onClick={handleScrollToTop}>
+                About us
+              </NavLink>
             </li>
             <li className="small-text">
-              <Link to="/products">Products</Link>
+              <NavLink to="/products" onClick={handleScrollToTop}>
+                Products
+              </NavLink>
             </li>
             <li className="small-text">
-              <Link to="/vendorspartners">Vendors and partners</Link>
+              <NavLink to="/vendorspartners" onClick={handleScrollToTop}>
+                Vendors and partners
+              </NavLink>
             </li>
             <li className="small-text">
-              <Link to="/contacts">Contacts</Link>
+              <NavLink to="/contacts" onClick={handleScrollToTop}>
+                Contacts
+              </NavLink>
             </li>
           </ul>
         </nav>
