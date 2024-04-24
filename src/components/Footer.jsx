@@ -18,22 +18,38 @@ function Footer() {
         <nav>
           <ul>
             <li className="small-text">
-              <NavLink to="/home" onClick={handleScrollToTop}>
+              <NavLink
+                to="/home"
+                onClick={handleScrollToTop}
+                data-scroll-top="true"
+              >
                 Home
               </NavLink>
             </li>
             <li className="small-text">
-              <NavLink to="/about" onClick={handleScrollToTop}>
+              <NavLink
+                to="/about"
+                onClick={handleScrollToTop}
+                data-scroll-top="true"
+              >
                 About us
               </NavLink>
             </li>
             <li className="small-text">
-              <NavLink to="/products" onClick={handleScrollToTop}>
+              <NavLink
+                to="/products"
+                onClick={handleScrollToTop}
+                data-scroll-top="true"
+              >
                 Products
               </NavLink>
             </li>
             <li className="small-text">
-              <NavLink to="/vendorspartners" onClick={handleScrollToTop}>
+              <NavLink
+                to="/vendorspartners"
+                onClick={handleScrollToTop}
+                data-scroll-top="true"
+              >
                 Vendors and partners
               </NavLink>
             </li>
