@@ -6,7 +6,9 @@ function Header() {
   return (
     <header className="header-desktop">
       <div className="container">
-        <img src={logo} alt="Compuline logo" />
+        <Link to="/home">
+          <img src={logo} alt="Compuline logo" />
+        </Link>
         <nav>
           <ul>
             <li className="small-text">

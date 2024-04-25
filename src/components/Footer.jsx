@@ -5,7 +5,6 @@ import { NavLink } from "react-router-dom";
 function Footer() {
   const handleScrollToTop = (event) => {
     const { target } = event;
-    // Проверяем, содержит ли элемент атрибут data-scroll-top и его значение равно "true"
     if (target.getAttribute("data-scroll-top") === "true") {
       window.scrollTo(0, 0);
     }
@@ -14,7 +13,14 @@ function Footer() {
   return (
     <footer>
       <div className="container">
-        <img src={logo} alt="Compuline logo" />
+        <NavLink to="/home" onClick={handleScrollToTop}>
+          <img
+            src={logo}
+            alt="Compuline logo"
+            onClick={handleScrollToTop}
+            data-scroll-top="true"
+          />
+        </NavLink>
         <nav>
           <ul>
             <li className="small-text">
