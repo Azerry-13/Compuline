@@ -188,7 +188,7 @@ footer p.small-text {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 275px 30px 304px;
+  padding: 275px 0 304px;
 }
 
 .notfound .small-text {
@@ -1033,6 +1033,13 @@ form button {
 
   button {
     max-width: none;
+  }
+
+  .notfound .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 260px 30px 261px;
   }
 }
 

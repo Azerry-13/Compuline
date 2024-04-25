@@ -12,7 +12,7 @@ function NotFound() {
   }
 
   const handleClick = () => {
-    window.location.replace("/Compuline/home");
+    window.location.replace("/Compuline/#/home");
   };
   return (
     <>
