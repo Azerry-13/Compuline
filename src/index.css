@@ -28,6 +28,7 @@ h1 {
 
 h2 {
   font-size: 42px;
+  line-height: 53px;
   font-weight: 600;
   color: #272727;
 }
@@ -35,17 +36,20 @@ h2 {
 .body-text {
   font-size: 24px;
   font-weight: 100;
+  line-height: 30px;
   color: #272727;
 }
 
 .button-text {
   font-size: 18px;
+  line-height: 23px;
   font-weight: 500;
 }
 
 .small-text {
   font-size: 18px;
-  font-weight: 200;
+  line-height: 23px;
+  font-weight: 300;
   color: #272727;
 }
 
@@ -121,7 +125,7 @@ footer {
   width: 100%;
   bottom: 0;
   height: 260px;
-  z-index: 1;
+  z-index: 0;
 }
 
 .header-desktop .container,
@@ -156,9 +160,9 @@ li a {
   color: #ffffff;
 }
 
-a:hover {
-  border-bottom: 1px solid #ffffff;
-  padding-bottom: 2px;
+header a:hover,
+footer a:hover {
+  color: #0096ff;
 }
 
 hr {
@@ -385,20 +389,24 @@ footer p.small-text {
   width: 21px;
   height: 1px;
   background-color: #ffffff;
-  transition: all .4s;
+  transition: all 0.4s;
+}
+
+.is-active {
+  border: 1px solid #262c3a;
 }
 
 .is-active .top-line {
   transform: rotate(45deg);
   position: absolute;
   top: 16px;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 .is-active .bottom-line {
   transform: rotate(-45deg);
   position: absolute;
   bottom: 16px;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .burgerMenu {
@@ -547,7 +555,7 @@ input {
   border: 1px solid #8aa4b0;
   border-radius: 5px;
   width: 100%;
-  padding: 9px 24px;
+  padding: 7px 24px;
   position: relative;
   z-index: 1;
   background-color: #f7f7f7;
@@ -701,6 +709,7 @@ form button {
 
   h2 {
     font-size: 36px;
+    line-height: 45px;
   }
 
   .body-text {
@@ -720,7 +729,7 @@ form button {
     color: #272727;
   }
   body {
-    padding-bottom: 490px;
+    padding-bottom: 496px;
   }
 
   footer {
@@ -853,8 +862,11 @@ form button {
     position: absolute;
     top: 270px;
     height: auto;
-    width: 100%;
-    padding: 0 30px;
+    width: calc(100% - 60px);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    right: 30px;
+    left: 30px;
   }
 
   .contacts {
@@ -989,8 +1001,11 @@ form button {
     position: absolute;
     top: 270px;
     height: auto;
-    width: 100%;
-    padding: 0 30px;
+    width: calc(100% - 60px);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    right: 30px;
+    left: 30px;
   }
 
   .contacts {
@@ -1006,7 +1021,8 @@ form button {
     padding-top: calc((100vw - 360px));
   }
 
-  .about h1, .main h1{
+  .about h1,
+  .main h1 {
     padding-top: 75px;
   }
 
@@ -1031,7 +1047,7 @@ form button {
   .background-upper .container {
     flex-direction: column;
     padding: 0 30px;
-}
+  }
 
   .address:first-of-type {
     padding-top: calc((100vw - 360px) + 72px);
