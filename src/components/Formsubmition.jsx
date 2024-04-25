@@ -13,6 +13,7 @@ function Formsubmition() {
   }
 
   function handleClick() {
+    alert("Form submitted");
     setTimeout(() => {
       window.location.reload();
       document.body.scrollTop = document.documentElement.scrollTop = 0;
@@ -39,7 +40,7 @@ function Formsubmition() {
         placeholder="+7 (ххх) хх - хх - хх"
       />
       <label htmlFor="email" className="small-text">
-          E-mail
+        E-mail
       </label>
       <input
         id="email"

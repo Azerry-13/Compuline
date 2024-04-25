@@ -188,10 +188,7 @@ footer p.small-text {
   display: flex;
   align-items: center;
   flex-direction: column;
-}
-
-.notfound .container {
-  padding-top: 275px;
+  padding: 275px 30px 304px;
 }
 
 .notfound .small-text {

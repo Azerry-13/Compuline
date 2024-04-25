@@ -3,21 +3,8 @@ import MainBannerButton from "./Mainbannerbuttonwhite";
 import MainProducts from "./MainProducts";
 import Headline from "./BlockHeadline";
 import Form from "./Form";
-import { useEffect } from "react";
 
 function Main() {
-  useEffect(() => {
-    const url = window.location.href;
-    const lastWord = url.substring(url.lastIndexOf("#") + 1);
-    
-    if (lastWord === "form") {
-      const formElement = document.getElementById("form");
-      if (formElement) {
-        formElement.scrollIntoView({ behavior: "smooth" });
-      }
-    }
-  }, []);
-  
   return (
     <>
       <div className="main">

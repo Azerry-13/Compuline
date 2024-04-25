@@ -5,7 +5,17 @@ const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    const url = window.location.href;
+    const lastWord = url.substring(url.lastIndexOf("#") + 1);
+
+    if (lastWord === "form") {
+      const formElement = document.getElementById("form");
+      if (formElement) {
+        formElement.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      window.scrollTo(0, 0);
+    }
   }, [pathname]);
 
   return null;
