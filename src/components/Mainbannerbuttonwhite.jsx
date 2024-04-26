@@ -27,6 +27,7 @@ function MainBannerButton(props) {
           <button
             style={{
               color: isMouseOver ? "#0076C9" : "#0096ff",
+              backgroundColor: isMouseOver ? "#f7f7f7" : "#ffffff",
             }}
             onMouseOver={handleMouseOver}
             onMouseOut={handleMouseOut}

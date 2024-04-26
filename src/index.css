@@ -6,6 +6,8 @@ body {
   position: relative;
   padding-bottom: 260px;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 *,
@@ -178,20 +180,26 @@ footer p.small-text {
   text-align: center;
 }
 
-.notfound {
+.not-found-page {
   background: url(images/backgrounds-desktop/404Banner.jpg) center no-repeat;
   background-size: cover;
-  height: calc(100vh - 260px);
+  display: flex;
+  flex-direction: column;
 }
 
-.notfound .container {
+.not-found {
+  display: flex;
+  flex: 1;
+}
+
+.not-found .container {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 275px 0 304px;
 }
 
-.notfound .small-text {
+.not-found .body-text {
   color: #ffffff;
   margin: 20px 0 60px;
 }
@@ -1035,7 +1043,7 @@ form button {
     max-width: none;
   }
 
-  .notfound .container {
+  .not-found .container {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -1094,9 +1102,8 @@ form button {
     padding-top: calc((100vw - 360px) + 136px);
   }
 
-  .notfound {
+  .not-found-page {
     background: url(images/backgrounds-mobile/404Banner.jpg) center no-repeat;
     background-size: cover;
-    height: calc(100vh - 200px);
   }
 }
